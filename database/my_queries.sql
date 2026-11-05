@@ -35,3 +35,36 @@ VALUES (
     "FPS, action, single-player",
     "PC, PlayStation 4, Xbox One, Nintendo Switch, Google Stadia, Xbox Series X/S, PlayStation 5PlayStation 4, Xbox One, PC, Xbox Series X/S, PlayStation 5"
     );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Forza Horizon 6",
+    "https://opencritic.com/game/19996/forza-horizon-6",
+    "An open-world racing game featuring a vast, dynamic world to explore and a wide variety of cars to drive in japan.",
+    "https://img.opencritic.com/game/19996/3KGI49rZ.jpg",
+    "playground games, xbox game studios",
+    "Racing, open world, single-player",
+    "PC, xbox series X/S, playstation 5"
+    );      
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Assassin's Creed Valhalla",
+    "https://opencritic.com/game/9439/assassins-creed-valhalla",
+    "An action role-playing video game set in the Viking era, where players take on the role of Eivor, a Viking raider, as they explore and conquer England.",
+    "https://img.opencritic.com/game/9439/smeXfxW7.jpg",
+    "Ubisoft",
+    "Action, role-playing, single-player",
+    "PlayStation 4, Xbox One, PC, Google Stadia, Xbox Series X/S, PlayStation 5"
+    );   
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Super Smash Bros. Ultimate",
+    "https://opencritic.com/game/6223/super-smash-bros-ultimate",
+    "A competitive fighting game featuring characters from various Nintendo franchises.",
+    "https://img.opencritic.com/game/6223/J66CHPqO.jpg",
+    "Nintendo, Sora Ltd., Bandai Namco",
+    "Fighting, multiplayer",
+    "Nintendo Switch"
+    );   
