@@ -67,4 +67,25 @@ VALUES (
     "Nintendo, Sora Ltd., Bandai Namco",
     "Fighting, multiplayer",
     "Nintendo Switch"
-    );   
+    );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "The Legend of Zelda: Ocarina of Time",
+    "https://opencritic.com/game/21344/the-legend-of-zelda-ocarina-of-time",
+    "An action-adventure game where players control Link to rescue Princess Zelda and defeat the evil Ganon.",
+    "https://img.opencritic.com/game/21344/RI6zwa6O.jpg",
+    "Nintendo",
+    "advaenture, action, single-player, role-playing",
+    "Nintendo Switch 2"
+    );
+
+--  uses to delete a game if needed
+DELETE FROM games WHERE gameID = 8;
+-- adding a column to the games table to store the release date of each game. The release date is set to a default value of '2026-01-01' and is not nullable. Additionally, the release date for the game with gameID 1 is updated to '2023-06-01'.
+ALTER TABLE games
+ADD release_date DATE NOT NULL DEFAULT '2026-01-01';
+-- to change the release date for a specific game, you can use the following SQL statement:
+UPDATE games
+SET release_date = '2023-06-01'
+WHERE gameID = 1;
