@@ -80,6 +80,16 @@ VALUES (
     "Nintendo Switch 2"
     );
 
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Knack",
+    "https://opencritic.com/game/301/knack",
+    "Knack is a platforming action-adventure video game developed by Japan Studio and published by Sony Computer Entertainment. The game was released as a launch title for the PlayStation 4 in November 2013. Players control Knack, a creature made of ancient relics, as he battles goblins and other enemies to save humanity from an impending threat.",
+    "https://img.opencritic.com/game/301/Fsg5CSnl.jpg",
+    "SCEA, SCE Japan Studio",
+    "Platformer, Action-Adventure, 3D, 3rd Person",
+    "PlayStation 4, PlayStation 5"
+    );
 --  uses to delete a game if needed
 DELETE FROM games WHERE gameID = 8;
 -- adding a column to the games table to store the release date of each game. The release date is set to a default value of '2026-01-01' and is not nullable. Additionally, the release date for the game with gameID 1 is updated to '2023-06-01'.
