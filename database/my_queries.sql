@@ -90,6 +90,62 @@ VALUES (
     "Platformer, Action-Adventure, 3D, 3rd Person",
     "PlayStation 4, PlayStation 5"
     );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Horizon Zero Dawn",
+    "https://opencritic.com/game/2862/horizon-zero-dawn",
+    "travers the world of the fall citys covered by the cratures left by the metal world, explore suvive and experence this 3D, post apocalyptic world.",
+    "https://img.opencritic.com/game/2862/VEaM8Rvv.jpg",
+    "Guerrilla, Sony",
+    "single player, RPG, thrid persion, adventure",
+    "playstation 4, playstation 5, PC"
+    );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Olympic Games Tokyo 2020 - The Official Video Game",
+    "https://opencritic.com/game/11570/olympic-games-tokyo-2020-the-official-video-game",
+    "compete in the tokyo olymics agenst the world, play 20 diffrent modes, customise your team, play with a friend or play online to win the gold metal.",
+    "https://img.opencritic.com/game/2862/VEaM8Rvv.jpg",
+    "SEGA",
+    "muliplayer, competative",
+    "PC, PlayStation 4, Google Stadia, Xbox One, Nintendo Switch"
+    );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+    "https://opencritic.com/game/19013/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2",
+    "fight agenst the demons that spread around the world, play as any demon slayer and hasira, or even join the demon side and play as the demons, play single player sotry mode or verse your friends in this 1 on 1 fighting game.",
+    "https://img.opencritic.com/game/19013/yrTzQhKg.jpg",
+    "SEGA, CyberConnect2",
+    "single player, story mode, online muliplayer",
+    "Xbox Series X/S, PlayStation 5, Nintendo Switch, PC"
+    );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Cyberpunk 2077",
+    "https://opencritic.com/game/8525/cyberpunk-2077",
+    "explore this futureistic distopian world where technology runs the world, where money and power is on top. fight your way though and make your way to excape this hell of a reality",
+    "https://img.opencritic.com/game/8525/E6Fgdch4.jpg",
+    "CD PROJEKT RED, WB Games",
+    "single player, RPG, role play, shooter",
+    "PC, Google Stadia, Xbox Series X/S, Xbox One, PlayStation 4, PlayStation 5, Nintendo Switch 2"
+    );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "God of War Ragnarök",
+    "https://opencritic.com/game/12919/god-of-war-ragnar-k",
+    "travle the world as kratos and fight the god who threten this world",
+    "https://img.opencritic.com/game/12919/AOUX1rHn.jpg",
+    "Sony Santa Monica, Sony",
+    "single player, RPG, role play",
+    "PlayStation 4, PlayStation 5, PC"
+    );
+
 --  uses to delete a game if needed
 DELETE FROM games WHERE gameID = 8;
 -- adding a column to the games table to store the release date of each game. The release date is set to a default value of '2026-01-01' and is not nullable. Additionally, the release date for the game with gameID 1 is updated to '2023-06-01'.
