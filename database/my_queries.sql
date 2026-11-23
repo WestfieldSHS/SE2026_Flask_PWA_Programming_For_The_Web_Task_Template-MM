@@ -146,6 +146,50 @@ VALUES (
     "PlayStation 4, PlayStation 5, PC"
     );
 
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Tomodachi Life: Living the Dream",
+    "https://opencritic.com/game/20304/tomodachi-life-living-the-dream",
+    "welcome to your own privte world, create your own little people and bring life to this 3D slice of life simulator, were the only limit is your imagination.",
+    "https://img.opencritic.com/game/20304/H4Sn4EWN.jpg",
+    "nintendo",
+    "single player, slice of life, life simulator",
+    "nintendo switch, nintendo switch 2"
+    );
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "GoldenEye 007",
+    "https://opencritic.com/game/14240/goldeneye-007",
+    "welcome agent, play as james bond in this 3D first persion shooter and fight for england's sake, for england always.",
+    "https://img.opencritic.com/game/14240/FJ5gRcSk.jpg",
+    "Rare Ltd., Xbox Game Studios",
+    "FPS, story, local muliplayer, spy game",
+    "Xbox Series X/S, Xbox One, Nintendo 3DS, nintendo wii"
+    ); 
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Fortnite: Battle Royale",
+    "https://opencritic.com/game/6228/fortnite-battle-royale",
+    "this is one of the biggest online shooters in the history of gaming, play in mulitple diffrent modes and battle to win every game in this great game",
+    "https://img.opencritic.com/game/6228/WvahNr2f.jpg",
+    "Epic Games",
+    "third persion shooter, battle royal, competative",
+    "PlayStation 4, Xbox One, PC, Nintendo Switch, Xbox Series X/S, PlayStation 5"
+    ); 
+
+INSERT INTO games(name,hyperlink,about,image,developer,genre,platform) 
+VALUES (
+    "Splatoon 2",
+    "https://opencritic.com/game/4214/splatoon-2",
+    "splatoon is a fun and exciting caputre area game where you play as inklings and try to cover as much area as possible, go into squid mode to zoom undetected and climb walls, or play the story mode and save the city from the octoling's threat",
+    "https://img.opencritic.com/game/4214/WCt8csOr.jpg",
+    "Nintendo",
+    "shooter, single player sotry mode, online muliayer",
+    "Nintendo Switch"
+    ); 
+
 --  uses to delete a game if needed
 DELETE FROM games WHERE gameID = 8;
 -- adding a column to the games table to store the release date of each game. The release date is set to a default value of '2026-01-01' and is not nullable. Additionally, the release date for the game with gameID 1 is updated to '2023-06-01'.
